@@ -1,5 +1,61 @@
-extends layout
+doctype html
+html
+  head
+    title= title
+    link(href='http://fonts.googleapis.com/css?family=Rajdhani|Palanquin|Cinzel+Decorative|Wallpoet' rel='stylesheet' type='text/css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+  
+  div#video
+    video(autoplay poster="/images/snowclip.mp4" id="bgvid" loop)
+      source(src="/images/snowclip.mp4" type="video/mp4")
+  
+    div(class='nav')
+      div.container
+        ul
+          li.left
+            a(href='/about') ABOUT ME
+          li#right
+            a(href='#') CONTACT
+    div.container
+      div(id='header')
+        h1 THIS IS
+        h1 NICK
+        p I love my family, coding, and the great outdoors. 
+        p.tag #Adventure 
+        p.tag #IamBackcountry
+  div#about
+    div.container
+      h1#passion PASSION
+      div.collage
+        div.row
+          div.special
+            img(src='/images/ski.jpg' height='100%' width='100%')
+            div.label BACKCOUNTRY SKIING
 
-block content
-  h1= title
-  p Welcome to #{title}
+        div.row
+          div.pic
+            img( src='/images/photo.jpg' height='100%' width='100%')
+            div.label BIKING 
+
+          div.pic
+            img(src='/images/photo 2.jpg' height='100%' width='100%')
+            div.label FUN  
+
+        div.row
+          div.pic
+            img(src='/images/tent.jpg' height='100%' width='100%')
+            div.label CAMPING  
+
+          div.pic
+            img(src='/images/cb.jpg' height='100%' width='100%')
+            div.label HIKING 
+
+          div.pic
+            img(src='/images/lift.jpg' height='100%' width='100%')
+            div.label PHOTOGRAPHY 
+
+        div.row
+          div.pic
+            img(src='/images/boulder.jpg' height='100%' width='100%')
+            div.label BOULDERING  

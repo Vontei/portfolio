@@ -1,8 +1,174 @@
+
+
+
+/*
+font-family: 'Wallpoet', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-font-family: 'Palanquin', sans-serif;
+family: 'Rajdhani', sans-serif;*/
+
 body {
-  padding: 50px;
+  padding: 0 ;
+  margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-size: auto;
 }
 
 a {
   color: #00B7FF;
+}
+
+h1{
+  font-font-family: 'Palanquin', sans-serif;
+  font-size: 2.5em;
+}
+
+
+.container{
+  width: 75%;
+  margin: 0 auto;
+  box-sizing: content-box;
+
+}
+
+#profile{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+
+.nav{
+  z-index: -1;
+  position: fixed;
+  top:0;
+  background:rgba(255, 255, 255, .2);
+  padding-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 50px;
+  color: black;
+  width: 100%;
+}
+
+p{
+  family: helvetica;
+  font-size: .8em;
+}
+
+.left{
+  float: left;
+}
+
+#right{
+  float: right;
+}
+
+.nav ul{
+  padding: 0;
+}
+
+.nav a, .nav li{
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(198, 235, 15);
+
+}
+
+#header{
+  margin-top: 20%;
+  color: rgb(198, 235, 15);
+  font-size: 2em;
+}
+
+#passion{
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 50px;
+}
+
+.tag{
+  width:25%;
+  text-align: left;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#header h1{
+  margin: 0;
+  padding: 0;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 1000px;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+/*background: url('images/The-dark-forest-at-night.mp4') no-repeat;*/
+background-size: cover;
+transition: 1s opacity;
+z-index: -3;
+}
+
+
+
+#about{
+  z-index: -2;
+  margin-top: 25%;
+  width: 100%;
+  background: white;
+  height:25%;
+  background: rgba(255, 255, 255,.8);
+}
+
+#collage{
+
+}
+.pic{
+  position: relative;
+  display: inline-block;
+  height: 300px;
+  width: 325px;
+  margin: 15px;
+}
+.special{
+  box-sizing: border-box;
+  position: relative;
+  margin: 15px;
+  width: 100%;
+  height: 300px;
+}
+/*#skipic{
+  width: 100%;
+}*/
+
+.row{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.label{
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(6, 6, 6,.6);
+  text-align: center;
+  font-font-family: 'Palanquin', sans-serif;
+  font-size: 15px;
+  color:rgb(198, 235, 15);
 }
