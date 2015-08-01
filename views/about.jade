@@ -2,11 +2,37 @@ extends layout
 
 block content
 
+  div#video
+    video(autoplay poster="/images/snowclip.mp4" id="bgvid" loop)
+      source(src="/images/snowclip.mp4" type="video/mp4")
 
-  div(class='nav')
+    
+    div(class='nav')
+      div.container
+        ul
+          li.left
+            a(href='/') HOME
+          li#right
+            a(href='#') CONTACT
+
+  div.about
     div.container
-      ul
-        li.left
-          a(href='/') HOME
-        li#right
-          a(href='#') CONTACT
+      h1 A little about me
+      ul.tictacs
+        li hi
+          img(src='images/ski.jpg' alt='Bike' height='200' width='200')
+        li ho
+          img(src='images/ski.jpg' alt='Bike' height='200' width='200')
+        li cherry o 
+          img(src='images/ski.jpg' alt='Bike' height='200' width='200')
+
+      ul.tictacs
+        li  s 
+          img(src='images/ski.jpg' alt='Bike' height='200' width='200')
+  
+
+        li s 
+          img(src='images/ski.jpg' alt='Bike' height='200' width='200')
+
+        li d
+          img(src='images/ski.jpg' alt='Bike' height='200' width='200')
